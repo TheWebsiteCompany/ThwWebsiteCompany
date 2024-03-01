@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#a457c8;
+}
+.first{
+    border-radius:0px;
+    padding:0;
+}
+.button-container{
+    display: flex;
+    padding-top:15px;
+    padding-bottom:0px;
+    padding-right: 25px;
+    width:180px;
+    padding-left: 5vh;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    width:170px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.9px);
+    -webkit-backdrop-filter: blur(7.9px);
+    color:#282828;
+    -webkit-text-fill-color: #be88d8; /* Will override color (regardless of order) */
+    -webkit-text-stroke: 3px #282828;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 5vh;
+    border: none;
+}
+.button:hover{
+    cursor: pointer;
+    box-shadow: #282828 -12px 12px 1px;
+}
+.second{
+    background-color:#a457c8;
+}
+.heading{
+    padding:0;
+    text-align: center;
+    font-size: 13vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #282828;
+}
+.hollow{
+    color: #282828;
+    -webkit-text-fill-color: #a457c8; /* Will override color (regardless of order) */
+    -webkit-text-stroke: 3px #282828;
+}
+.hollow:hover{
+    text-decoration:underline;
+}
+.italics{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+.italics:hover{
+    text-decoration:underline;
+}
